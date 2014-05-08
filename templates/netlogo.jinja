@@ -1,0 +1,5 @@
+java -Xmx{{ heap }}m -Dfile.encoding=UTF-8 -cp NetLogo.jar \
+  org.nlogo.headless.Main \
+  --model {{ model }} \
+  --experiment {{ experiment }} \
+  --table {{ table }}

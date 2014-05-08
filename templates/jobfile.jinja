@@ -1,0 +1,11 @@
+
+
+#PBS -N {{ name }} 	#Assigns a job name. The default is the name of PBS job script.
+#PBS -l nodes={{ nodes }}:ppn={{ cores }} 	The number of nodes and processors per node.
+#PBS -l walltime=01:00:00 	The maximum wall-clock time during which this job can run.
+#PBS -j oe 	#Join option that merges the standard error stream with the standard output stream of the job.
+#PBS -m b 	#Sends mail to the user when the job begins.
+#PBS -m e 	#Sends mail to the user when the job ends.
+#PBS -m a 	#Sends mail to the user when job aborts (with an error).
+#PBS -r n 	Indicates that a job should not rerun if it fails.
+#PBS -V 	Exports all environment variables to the job.

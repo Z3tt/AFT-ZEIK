@@ -1,0 +1,1 @@
+./netlogo-headless.sh --model Sc11_100yrs.nlogo --experiment Sens_Sc11_test --table Sens_Sc11_100years_test.csv

@@ -1,2 +1,0 @@
-netlogo-headless.sh --model Sc11_test1.nlogo --experiment Sens_Sc11_test1 --table Sens_Sc11_test1_test1.csv
-netlogo-headless.sh --model Sc11_test1.nlogo --experiment Sens_Sc11_test2 --table Sens_Sc11_test1_test2.csv

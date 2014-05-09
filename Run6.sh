@@ -1,0 +1,1 @@
+﻿java -Xmx2048m -Dfile.encoding=UTF-8 -cp NetLogo.jar org.nlogo.headless.Main --model Sc11_test3.nlogo --experiment Sens_Sc11_test4 --table Sens_Sc11_test3_test4.csv
